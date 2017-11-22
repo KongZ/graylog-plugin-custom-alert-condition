@@ -74,7 +74,7 @@ public class CustomAlertCondition extends AbstractAlertCondition {
                new TextField("query", "Query", "", "A query string in which the result will trigger the alarm",
                      ConfigurationField.Optional.NOT_OPTIONAL),
                new TextField("period", "Period", "PT1M",
-                     "The granulality of the messages for the query in ISO8601 period format e.g. \"P1M\" is a one-month duration or \"PT10M\" is a ten-minutes duration",
+                     "The granularity of the messages for the query in ISO8601 period format e.g. \"P1M\" is a one-month duration or \"PT10M\" is a ten-minutes duration",
                      ConfigurationField.Optional.NOT_OPTIONAL),
                new NumberField("threshold", "Threshold", 1,
                      "The number of message found in given period before in which the result will trigger the alarm",
